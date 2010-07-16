@@ -1,6 +1,10 @@
   cmake_minimum_required(VERSION 2.6)
   PROJECT(dbus-listener)
- 
+
+LINK_DIRECTORIES(
+	/usr/local/lib/
+	)
+
   INCLUDE_DIRECTORIES(
 	/usr/local/include/glib-2.0/
 	/usr/local/lib/glib-2.0/include/
